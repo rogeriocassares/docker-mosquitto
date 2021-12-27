@@ -4,12 +4,12 @@ services:
         container_name: mosquitto
         restart: always
         build:
-            context: ./build/mosquitto
+            context: ./mosquitto/build
             dockerfile: Dockerfile
         volumes:
-            - ./etc/mosquitto:/mosquitto/config
-            - ./var/data/mosquitto:/mosquitto/data
-            - ./var/log/mosquitto:/mosquitto/log
+            - ./mosquitto/etc:/mosquitto/config
+            - ./mosquitto/var/data:/mosquitto/data
+            - ./mosquitto/var/log:/mosquitto/log
         ports:
             - 1883:1883
 #            - 8883:8883
