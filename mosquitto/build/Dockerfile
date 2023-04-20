@@ -1,4 +1,4 @@
-FROM eclipse-mosquitto:2.0.14-openssl
+FROM eclipse-mosquitto:2.0.15-openssl
 
 MAINTAINER roger10cassares <roger10cassares@gmail.com>
 
