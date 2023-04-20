@@ -1,6 +1,6 @@
 # docker-mosqutto
 
-Running the eclipse-mosquitto:2.0.15-openssl
+Running the eclipse-mosquitto:2.0.15-openssl image:
 
 ````bash
 docker-compose up
