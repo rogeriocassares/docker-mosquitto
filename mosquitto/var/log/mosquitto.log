@@ -122,3 +122,22 @@
 1682017328: New client connected from 172.19.0.1:33120 as ESP32_0f7708 (p2, c1, k120).
 1682017569: Client ESP32_0f7708 closed its connection.
 1682018993: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1682019387: mosquitto version 2.0.14 terminating
+1682019387: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1682019576: mosquitto version 2.0.15 starting
+1682019576: Config loaded from /mosquitto/config/mosquitto.conf.
+1682019576: Opening ipv4 listen socket on port 1883.
+1682019576: Opening ipv6 listen socket on port 1883.
+1682019576: mosquitto version 2.0.15 running
+1682019613: New connection from 172.19.0.1:47176 on port 1883.
+1682019613: New client connected from 172.19.0.1:47176 as mqtt-explorer-2cd074d4 (p2, c1, k60).
+1682019639: Client mqtt-explorer-2cd074d4 disconnected.
+1682019808: mosquitto version 2.0.15 terminating
+1682019808: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1682023011: mosquitto version 2.0.15 starting
+1682023011: Config loaded from /mosquitto/config/mosquitto.conf.
+1682023011: Opening ipv4 listen socket on port 1883.
+1682023011: Opening ipv6 listen socket on port 1883.
+1682023011: mosquitto version 2.0.15 running
+1682023018: mosquitto version 2.0.15 terminating
+1682023018: Saving in-memory database to /mosquitto/data//mosquitto.db.

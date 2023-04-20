@@ -3,9 +3,7 @@ services:
      mosquitto:
         container_name: mosquitto
         restart: always
-        build:
-            context: ./mosquitto/build
-            dockerfile: Dockerfile
+        image: eclipse-mosquitto:2.0.15-openssl
         volumes:
             - ./mosquitto/etc:/mosquitto/config
             - ./mosquitto/var/data:/mosquitto/data
@@ -17,6 +15,7 @@ services:
 #            - 9002:9002
         networks:
             - mosquitto-network
+
 
 networks:
     mosquitto-network:
