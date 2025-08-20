@@ -1,9 +1,8 @@
-version: "3"
 services:
      mosquitto:
         container_name: mosquitto
         restart: always
-        image: eclipse-mosquitto:2.0.15-openssl
+        image: eclipse-mosquitto:2.0.22-openssl
         volumes:
             - ./mosquitto/etc:/mosquitto/config
             - ./mosquitto/var/data:/mosquitto/data
