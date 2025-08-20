@@ -1,8 +1,10 @@
-# docker-mosqutto
+# docker-mosquitto
 
-Running the eclipse-mosquitto:2.0.15-openssl image:
+Running the eclipse-mosquitto:2.0.22-openssl image:
 
 ````bash
+git clone https://github.com/rogeriocassares/docker-mosquitto.git
+cd docker-mosquitto
 docker-compose up
 ````
 
